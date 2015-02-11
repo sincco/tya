@@ -1,0 +1,2134 @@
+0210204255::[SQLSTATE] Table 'renta.tya.__sesiones' doesn't exist(1146)
+--> C:\xampp\htdocs\tya\_frame\BaseDatos.php::62
+-->--> #0 C:\xampp\htdocs\tya\_frame\SesionDB.php(21): BaseDatos->query('SELECT data FRO...', Array)
+#1 [internal function]: SesionDB->read('qh19b0k0q5162dr...')
+#2 C:\xampp\htdocs\tya\_frame\Framework.php(62): session_start()
+#3 C:\xampp\htdocs\tya\_frame\_boot.php(39): Framework::Sesion()
+#4 C:\xampp\htdocs\tya\index.php(9): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+
+URL: http://127.0.0.1:80/tya/
+SESSION: 
+-->id: qh19b0k0q5162drck5tdv47kh71p91ud3e3aj0lll2ldrv311tfudksljntabisdl7k7bj66n8rhrgbdc1nf85egrer8e7tmup2cir3
+-->data: 
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210204255::[SQLSTATE] Table 'renta.tya.horarios' doesn't exist(1146)
+--> C:\xampp\htdocs\tya\_frame\BaseDatos.php::62
+-->--> #0 C:\xampp\htdocs\tya\_app\_modelos\horarios.php(5): BaseDatos->query('SELECT * FROM h...')
+#1 C:\xampp\htdocs\tya\_app\_controladores\index.php(5): horariosModelo->cabeceras()
+#2 [internal function]: indexControlador->index()
+#3 C:\xampp\htdocs\tya\_frame\Arranque.php(34): call_user_func(Array)
+#4 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#5 {main}
+
+URL: http://127.0.0.1:80/tya/
+SESSION: 
+-->id: qh19b0k0q5162drck5tdv47kh71p91ud3e3aj0lll2ldrv311tfudksljntabisdl7k7bj66n8rhrgbdc1nf85egrer8e7tmup2cir3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210221::El controlador js no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/js/jquery.js
+SESSION: 
+-->id: 834lcngvcrr10nlfkmu2b8mtjkjf0jk7bmkh3udd20rgtsicg93gbffmmoiite1etu5evsp3rqip1s7gij0mi0iujcpn8jq7ub6m653
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210221::El controlador js no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/js/webqr.js
+SESSION: 
+-->id: os53v4fc0qejtfj7hlkoi4i4pomu8jfe8bdeb6i4gajqam56319t1u3j094qc1tl9pvf2kqtl93v423q6mjcv5s4sioofepomkcmoo3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210221::El controlador js no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/js/llqrcode.js
+SESSION: 
+-->id: gn7ap7v5cvp0bursog9f32pkdk6obnpe7joo3n7c9e5r0ph6foeu10q2t93ikskpquqrktbqd783mfhta94383e44h5mrjlfsd58mi2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210221::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 48g8378hp1umi5662lpibh2fra6obl7fn9ns9rf6lihceq9aoil0nf1ohc7n0ggkerr3q4rfn89aop6nkdihmgl0u06fh7mf0qfo0k0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210310::El controlador js no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/js/jquery.js
+SESSION: 
+-->id: igb3k3b7gguijfr87bd2p961ck8963ut0h8nrsaep33teifttmgmfsb1of3n768b51skvr6j5tal7j3uklteo9rvgl7it0efani43i1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210310::El controlador js no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/js/webqr.js
+SESSION: 
+-->id: n7kaft49c97hao833dn5nuvlnclmpo1lo3r8lbj8h16boc2ql13kntiq18e4b372cjch016ouqdc4mqkkcphdbu7h32fdankvccfl82
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210310::El controlador js no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/js/llqrcode.js
+SESSION: 
+-->id: lk6fogau7o88o6ejp1nhn4papquf1fhpm662mc3ltm8cv5ta7djtfb2lf0tpl1m1t8rqu8vghmrl9rd3dlin5eqvan4kflh5hdlisr0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210310::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 0shlbj823hvid04sk3e3pnd764hak4acc4eumfhnnaequdj4f3iq4hj4ibr7e659jn66mb879mt5lh6vb1g9seqcp01179l4p41mqg2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210321::El controlador js no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/js/llqrcode.js
+SESSION: 
+-->id: klrv5h80tdah6f8qm6l99svd94provkclk1qiiivedrj840biekievq07f33pk9np0ff1jq6k6abvkpq7j3ju98lrrrf3lqjb7ojtb1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210321::El controlador js no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/js/jquery.js
+SESSION: 
+-->id: a9qn5ors0j9o9trf1tvirsr0cajf11oatggr1tlla6gaisu5gq6ietq3k3a878393la3gptsd9olu4ijm8f9730j8k9di4eqcjtur00
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210321::El controlador js no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/js/webqr.js
+SESSION: 
+-->id: 0404c459nbde8d35trkpf7r6r58qqr43k5diu010ha2mdah9pl8evs55f6tlpl4v84bod0hbujjqdt60rcpat9be39n0a979kvl9131
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210321::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: iqrnuf7q0q38fvkk1m5lkkjs71iou45htr88a712ejvlnc4rhm3h79r56m9ogkvbe1ntm3d0peqa89fhrr54mr6u07qonc3024u3j32
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210433::El controlador js no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/js/llqrcode.js
+SESSION: 
+-->id: fp62pltrklj2r501f7218d5kulu8kqtjr9ovr9m7tt8gfv2o91et3ajka0k2h4nf1ho9f5o2f71lpsok290bnpvapl1l7v9gl5pib43
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210433::El controlador js no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/js/webqr.js
+SESSION: 
+-->id: 9suimoq6o9j5ber9n92acuui9f4b5msqod84o95rq3ikk9sgh1tavf787eie7up77qltc9ulv0as55n1g8v3rkvodbfnk7iqmbg6a31
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210433::El controlador js no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/js/jquery.js
+SESSION: 
+-->id: c82d17rubaae8bkuvevv06hfndb9sk1322d5arrdth61vif54fa95k36socj6ncg2p8492fe5klldm87a62a9qhjpbjicfij22tgcj2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210433::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 16siqt02fc85fkbjcjb83u25pc980hv8merkhvv2o14o1ha1vo4u1gecerj5fntspk24q66auhtv7t8ctla33g1ce2han09dh194120
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210526::El controlador js no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/js/webqr.js
+SESSION: 
+-->id: hta6cn2qm37u08k0laeeodbuckoi311vs0me7to09f94vh8fa1b005aa6s08ef93b9cosgeu20vh9256gtoi4ds6k864vv7pu8ahni3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210526::El controlador js no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/js/jquery.js
+SESSION: 
+-->id: q2j6foernmjmu2nafcnh0tfdgdltntrem37ia90lfftsk75iga48jak0hkulhnajma82rbu91td8kvc9491eb7e42hdsi9gc58rs9e2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210526::El controlador js no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/js/llqrcode.js
+SESSION: 
+-->id: oh10egegejvkm2607tqbfkbercbvdiqbuvi13iuiufm45mat9jgdt7i3lfj7g9anuoooeh0un9i4qujsii88m2iipddj573acki7n60
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210526::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: j0ajst9jnoocd77go3fdbs167n9dpvcsvom3gnfdap4quhmg2q8n639df3nf5ne7r5dtid1hrtuvul713bp1mrqaie27s7ji4ablnj3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210913::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 66s0cbl50v85ad6uku2f5eae6209le09814t3snqfnfhrvkpn0ltmjtcbhod8636o8bv7sfuom836v2hcimtp2i5f5k36v2tptnmn70
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210916::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: o4li7sh2idg52196lvt2rnpid6k90g78eneecukg0fat3mnf45kdqd7gt06g86lnsiepoigj642mh10nfpmlo9fdlfulbg9nr1jtvn1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210210955::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 5a353pl3i2kq1b5902oevu4k28laucj5eue5f4r2q858v8n400qo06faqrhkicdhvdebe8ifd9foifvaepaq1c6o0drq65dun683l23
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210211000::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: hb88mvqalvg9hmvn91hgkso8halchmla3p35h0jste2fndm4i1f6d0d9gsatj89rqjpverklka6q45f2ou6kec7fof0q038utsov9g3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210211001::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: l8hsq545qptp7jjusvvqhus5ddqo4r4ijiebfbq456o9qubchi8u17dge97fmeiq7tlgn6eotsmp7e9es9jee8acotthepha5l9ee20
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210211011::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 4hgcbtv7shunt4n47tmv448vhu6gj03hpadkdb7h9jq468kvn3asbqkl7tpeht81v0n4pae8v7onjm9pb89pdk9rd8l8hfn26p25so1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210211038::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: bdjuuu0iqg7n8fa2dgi5vm3kkqbc0vvjhj3cvkr0l21k8hru1abdosmfn26e78345ekoo0dm5768b2kd310qlo4cld4vtgoofukqvd1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210211342::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 8nlc70gelb2hup8chdualau7s4cusv51so7datn2mvmpmr6orjm30ket65qg2pkvki443vahm0ua9d0pr1o6cmpmmkktneashdgb3d1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210211418::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: uuhcr621i677bc46t1vv811hpv607i51dtcaugg95rad3tt82hb5i5ba6cfeksmsogs3f6hh3vv4pv5vqomikllu48s87l40sncsgf1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210211510::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 2jij7dh44f7o7cgn0o59rkfhu9u852ctdndbaj34e0g5gmqkv72v4tj1pdo9313hnmb6fihss186mudqt37a04bl2asmugd6g13pui0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210211530::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: rrnmibkk2hm5sihlm3gkg36aeiluob72f29i3budipk9f2tr22t900vb91r21g38t4ogvmk70d3t290ku2shp0p9qkfthfn9c1okfn2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210211538::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: ukkk0t574vaudnei5hais6vpc8tj62ir3u8l40i1s8n9ropdqt66t5lra36ni3pfhgt7767rqemeu7uv06i54ab12cngisu45mhvou2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210211601::El controlador checador no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/checador
+SESSION: 
+-->id: fubmvvfod46e5t7p7c3p9abqqt2plitmfatlbe5jvf3gbh3gsbbngs41o38i76bvg3alugk1migu43lp7ace1jug0s21le7lfad9ho0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210211625::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 9rta09mihmgsaoifengtocn76eahpnjpqkipj4etbefspf2n8i8gjcn8ff32vm1uld3pbmlhbmrgc6hhgfu4fuaolv6juk31o88u460
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210211943::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 9j2a4t8bjh1cpul5tuu4egbie9j47svl7k6lb73ooc2lmsm3arjdc37t6jpk7o19astg6a8rq61ekpqe97q0o1fk25h4r2rm8oe16o1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212009::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: pjv94q92ruib5ii9l2p7f7quctg634h2826j0l65ega83u8270gid8bp0415okp795b227e5td257u0ub06r5psj0urn0g3srdp4it3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212021::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 8lafrilk615tlikdpkfa1b6nmcjio3pc2vgthe44pa6detgqq3g2njflfpjn029h3vtbh9tfui760s59oanqqcni0ja2l2chk9o78p2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212205::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: r9un3vrn3jg31hkngms2di64caocmt2kinl0j57lri8iqv5l257l00bms603t2c01i5ab6apqrbtcubmk4a293s64524nch2teqita0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212218::El controlador images no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/images/hourhand.png
+SESSION: 
+-->id: glq9dic4sn56ovbtosq0l73fd50pprqa397snc5ge1aohjqckumeiar8340t4oneo5knkd3v8aprqvs0ta6vv2ertou1duqbb16fg50
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212218::El controlador images no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/images/sechand.png
+SESSION: 
+-->id: h3d93iruarj95pbl3v9u48cdrlsasd1d6eq5k8vhq37a9of9qdrilrmhgj9qpu2odnjen10lf17osudomsra77mjh3nl89l0psnu882
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212218::El controlador images no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/images/clockface.jpg
+SESSION: 
+-->id: 8b9584mlll5lt2ghn77vpuq29ob7q16jjm8pnj478r3lpj21gqs9e6c8k503m6m2a5v148n9fhs6sndbi528bc2rvkjqfftrtvuri42
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212218::El controlador images no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/images/minhand.png
+SESSION: 
+-->id: 8vlndndt4cc3v7d97583oq310gmmvlfcig87r99busnfb2103tfnegi0iu56oasslvgc1i3ctjnumhi87a4csah333agfa6hs3mfvj0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212218::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: vqo2ll4scfl5e0p7tpt9m5t7u332qggbq1hbtan4b3j2dce846qpekkdtlrf6pm6vslh1md2sine2urj0u70l1qh4cqh7vq73j53te0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212253::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: tv8o0gq5lasi3jce9271ubdl1s31roam3rehptbvldhekq6pdktt38bcftr3h6g51qjnbpus93ga9vlgd2dpvhn7r7hbuq1v6d3t7a1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212333::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 2s026eeeol2m0vja2uamrdeq8f3r05sa6ge7q6onst6vcf8o6g37iqq0vkgnir5ucvh0fs0d6qesbo31c32t5555f9c92mp9hue50e2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212341::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: gpph8iq7bk62u2l710oa01m542q3o5uur093ui7n9tvahppto4nunuifjm4snibppg60msccdcbhc1akdepnkt5uj2phb2ra1m9n1s2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212519::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: q451ucfaqtg0e9akcjf4tet9dcbj01den4rs9qv1h4vnd1lsquskppj6hf882lc9f8ias5l1rr9tulejplojpttoo1r853v5gdls5k1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212529::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: lmcqsn4mmnqaj6ht9t3safiffckqr49jlgcmr1s470j4jo5lpe2p22cc787l9q71v8t1mc0dbmm97eoe16g6n12l6i6viln8aiou1b1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212730::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: v31qgbrgj2bob05ib8l40v5dd7so85frruc3j73cg55f5o9hera6qmfc2dlvjg4cd56v5e3jag9vf27t4cad5lm0h7mu38hp9kokh63
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212753::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: jf88bnjmdp069eqiaki13k8v7p3gucfi27c0mnm1ts24eq9smpnmadc3sbjje07voqtjmviqn2e6sgve8vrkt5jdgnbfj0unptj04u2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212815::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: c79gfpp0bb6tm141srco1nhvi9aph554qrclbubprprer1l8miu7ap4elb03n2q4umlmt1lu1beju705jnje3ljmtt0nq6ut8eraqa2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212816::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 79r9nsgk41cit9v1gj20f7ek7mcj9b5052l8bu1aqntkmkbrmlb5700s8cbs3bvnvaqid9jj3vkjl9he6gvimhk5dropkjfihkcv853
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212822::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 7lnd94heqhnmp794qchp7amvtc3jh6ounb7viakegj6mgrl1et1p21ptf1eobaa2903ora92kt94nvrtfgegc6g3pn8gdnfl95a9nl2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210212939::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: f97sfebs786v1g0gd0srj8ekijg7veliprr5kvnpn4t39vsbmarj3ap4ajdcvvaflpap3l6mir2dhig4n16uo61g4anv81u7h708tk0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210213205::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 0tt5856l04k80il3v4n2fhif198qiv2oqrblgn0365lgmma3srplj0f8j9r8e8r5786oqp4f89kfd7t2oioho0rmndoq1gjd85boal1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210213315::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: t7b6j9oajqnqm81uj03a23rcmg5ku2343b88hnpdl1ro3qdvps8jn4bikv82rkl9ohfgchfp0044aoqmkn80e4g8k7nhc954mdunom0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210213356::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: obr0ak1jsv5qns2s840kfhr119ledprrrjigbh2djms55p91i0n2m8c76sauubfg7sn6738n0luq5eotbao9ka85vtrns7gnt11u0i0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210213412::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: dg1ab4mj7i0taf3e9mbk6jvio8co6cai23258j4vbsals4jmbgtajd1lp984hr1k9safq588lm9upleh2l76e0qjhj09gfv9dg65ht2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210213440::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 0prq54rpd3skt30cbfhlr2ndp9pvbuhkh95dm7khvseqebgsj4q82q09jkg4kuunb47lv0ig7mngpq334m85gonf2d97n6pvvgp6vk3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210213449::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 8979n8g76p5l1e82oq2k365fd69k7dcm6d7k9q4tvf8de5shsnmca90gcsaionq0soo9d9b6f9ojhsdvoftn5hi039esre1olrkmnh1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210213505::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: sa1iro9h8nvhbrvqvgjo85l6ge20gg0mgpjajl1kfetk51f3ehgg76797s1htsl6ogj143uc2c0k56g0666omp00pto8itsjfu9ghm0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210213518::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::58
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: f7u48q4olgb2soqh801bf60mge8mb9itjqu67tb3fjk71jfol8opapgpf1ss4uilbbfpeoe5esbkm9h9vs0m02cnvcgkagmqh79vgt1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210223243::[SQLSTATE] Column 'id_empleado' cannot be null(1048)
+--> C:\xampp\htdocs\tya\_frame\BaseDatos.php::110
+-->--> #0 C:\xampp\htdocs\tya\_app\_modelos\incidencias.php(5): BaseDatos->insert('INSERT INTO inc...', Array)
+#1 C:\xampp\htdocs\tya\_app\_controladores\api.php(28): incidenciasModelo->inserta(NULL)
+#2 [internal function]: apiControlador->incidenciasPOST()
+#3 C:\xampp\htdocs\tya\_frame\Arranque.php(16): call_user_func(Array)
+#4 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#5 {main}
+
+URL: http://127.0.0.1:80/tya/api/incidencias
+SESSION: 
+-->id: 
+-->data: 
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210223321::[SQLSTATE] Column 'id_empleado' cannot be null(1048)
+--> C:\xampp\htdocs\tya\_frame\BaseDatos.php::110
+-->--> #0 C:\xampp\htdocs\tya\_app\_modelos\incidencias.php(5): BaseDatos->insert('INSERT INTO inc...', Array)
+#1 C:\xampp\htdocs\tya\_app\_controladores\api.php(28): incidenciasModelo->inserta(NULL)
+#2 [internal function]: apiControlador->incidenciasPOST()
+#3 C:\xampp\htdocs\tya\_frame\Arranque.php(16): call_user_func(Array)
+#4 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#5 {main}
+
+URL: http://127.0.0.1:80/tya/api/incidencias
+SESSION: 
+-->id: 
+-->data: 
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210224544::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 1243rsg5kof1mad682la3uitcvsslvpnsbsv1kvmavocmsuinfeh07epapnebm8vogpqi8suhaadch5c31o9vssviq6cjmbipropqf0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210224551::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: fpg6tkupa54psoer7nsqvpcer9fqhjec7r0pv8dkb36ru5lucun200pd8v4h6oh3g0h2e9kl8sjcfblbjqp7aa720ol0c12a1vo6hf2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210231147::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: naqa5lgi999ng4h9k8687dm8ieeobhao07hpqc9clvj24svrk1mtrtrcmeot10a4j401uqohvrhfe6h71l00i2c0ovemfpdlagj7f10
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210231208::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 5ahstkhtibt5tnjs671cgqhh1kb9bqesduac8kin9d0o2cdf498p831gb2gu6g48lkqt04af50g0bbpib5impj9e83pncvu1gsbkfh0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210231233::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: hnq0o4uvoqa6vmc615gj5ngeiq6q0k7sgcv6dnuh649g4eu6g1fq27750mad15ftk3l1giuqk8ggu2cnv2mob3ldln4cm76hdikkrr3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210231312::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: k5a7l9sn6m541ut79og505qq913ej8d1hstlq7mco58q4k8p3vs0b584aefuk8hrej2j9m7ohsk41uqtqd00382qkpeanlsc2lvfnk0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210231329::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: kp94kfqs3qt86vtc2cov9jso4esaip5grop01p37r8eqvahvfccqgn1jbh11neeav4sjli7e58m4b9go42lfigbgf1cr6ul9pgoi5n0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210231354::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 8udgjb9pnlctq5fu3f5bbacfphad1kapdrejap0i6u1ne06hij87pn6rqmt6j1tg94gl424irj8dqv2e36iivufiitbkup03e2ptp62
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210231416::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: nalguveistn116conmmjif3e7o5o85p2l977sma6tp9vh4as49vn77rk1t6236f9kjk3d7m52pck7tett46gegme7l9vhqqnsfd3ns3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210231532::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: pieds926h526q7basphipob442863q8ut5kjqauefoj1nh3sbo7g8in5rb4ilunn6pibaqamku19hc2l4dal11g4lsd6khcm4sg2kj0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210231713::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: prc6601si0j7j34cm7ugofmclr6dgct8u1ag3oegqj4e60p1kdbqiud7ncou2dfmf8rf9g2ksq3ricpb0lln1o0osuusv1k8fgkhpq2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210231724::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: or8a6r23mq3ehb18njeta4fppjj0rhfa60s7893cc87qrg806tl5cq4q7cugvc2omqlpa7slb53ulakrftgmcltvov1tch4n9ckuo42
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210231957::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: ocatfr2b6qbd0r22tjebrvelrrp92bumrbnn2bmb9khqggkp4ba46p90e5fvpt0maqumk82gh2ltvmjtip102rngkgdkrpfnij8ob81
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210232248::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: ae3h9fpmjfpe3nh952sta4hv5qata0ctiqiegg7qb3put2g7o8mijc65so1m7hs7ogv52d19fdaeftrgajogf3go5e1sstb66duaqe2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210232300::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: bf5tnvqm9loutbupqg4jhcj3ap4io9pl9bpeqvphhvg50m37jo2f0pfmd6jqutk694v4u1h9pqt7qlkcigeo09ucbmqhd45ei7dq8u3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210232333::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: hfmnmch8qrb3ejert4iqvk73tha5hbhqnraj9c1okfq19le8onptsnrdak8088jidt1an9ec54mrgmpu1tije0v1a9plimtjnpa2441
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210232335::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 1hr1dm1ic2eiiitln9magpc2lm3puclaunfj93ea4nu2dkbvgi2jgc88n65b96cia4155c7am9798as3en6h1hng48u4dmg6j52cth0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210232348::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: j1ttg3doehnm51ammgifvcff6utbqtf2mdhaj3sqefa2s1kenuh2ah5v7r93gq72qhpigbstnoqft147es2s24m1ja0v8pvf77hs1m3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210232400::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: c0355houipcegl1loguisfd1fllutiao42ctp3im6tcikclcrtujo3fll8c4ggho4p5qfh5uerev4hntcg4l4rlhu7gqr6cdtkrshi2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210232422::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 34361c2u54apidqg9t37voi827jp0lkvvikl6v7ee8qfn0tkofmhafvrfcpgaih4rsst2hj6hhpaf5j23l7d9v89n27jt3utp11ntt1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210232507::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: l95mgujc163auoe0t82c8m451nrvbi0sjojbc6gorvlnomdue41f2p93qu93cpm3cuod9fcih9pbinbil9p3uv32eordj31qssj8e22
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210232524::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 1bl2q90balklk70fl7ngv6f04m6gj5ikr74nnibn4piclve1cht77c4kdfnulelqii2r9bb9gmcj4spe31fdr41j5moebvh1ruucdt1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210232821::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 3aig38btillbblh7bc2u7a58l3rlvq8dfn62bmiov428sspc9rf6ph69ccvdbhr0ejsurd0nq1u37jnsi1oobjhc8i1hh4h0qokqbn2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210233611::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: rhn4h04vlqe2u6ejpt2ng9cd08q9u1vk67n8qv39bci5oscb4nqf6o07s8h8gikfkni265d3986j5vin9hjsrfp2pm3lv826qbigm62
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210233752::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: df7jgdhafqsos4vthg4ki62tjobd2363jlktiv5cfhcteldihmjve4lgmgb9a9s8r5ra3fj62ceb3hl0055t11v1t3bimmp20itp582
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210233814::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: bic2bgp3is4r9os2s5mk3ck4nl1adug8jm8gsfo45tdvk5gghnss5ui21dkpiriqafgeevoljlvl0n9fcml7eme76nhgkbr0o2t1vu0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210233859::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: erok402ljaekrrbqi8j7vcjmhkfv40uub98l8bllatcchufq9teaqjfb40aab6au2c0iquvaldu3nhadbj55vvk63on5ga2je2fqf00
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210234050::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: l6vjmfvpl2md6m7m8799388dtgurtgborjlnjicgvk1086okf0277eqbbdcsttn7bufug0hmg33vlks8hcpng06edvmbdpk1uspmob1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210234105::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 0pd5a3kgo526bvmga56jnosnusliqcboreaa0cqv5tj5qq91a5h8pnjstd8m1o7sclbanh3nqgj4qj8uchcj06a25bfeuakk3p8q371
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210234141::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: ts7b06f83htk9re0th7cojjtcp6jlg3i4ojjde11jt0oi7b2q37fa3ofi9avici5csnimk9jr9sfb25m0iclf7bvmvdsjio3p1t6rk0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210234352::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 28v887e52eirs8uqsdl459589givt8d6uka2tuistkljc22s3il7k8mbetkbr4tguktmni25k81o1idm547tqc3pofic38tdljfh2q3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210234433::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: tb05tddiv55sr2f7o1d5sthptjectav8s9bgptpv897sltt0r89kdvcite6ot0kepfv1f4g517lkfa621pbc05hjoo5tn8pdqul2lo0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+0210234500::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: jopgn9vddg5tabt9ko8qifpemfbm27vm7pruuiquun57ip58frl3hm9kntjeqkmt7pbeniemjf6jk6en658d5gk15tls5hnea2usi90
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021104322::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 2uktubdul3d7dbifvrnhbrv4o7bmdbv0idca5v1i4okck5j5bsncagoqd3hkcj2fnsb5n0i12h3ajt1iv4j8v0jvo3eehpv0g4snbi0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021104418::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: o4i3a7saap89fppq2qqu42bl0ll63hi5r3fmcqa7icgnhlconcv6467v7t3snrdtsj0ocqv0tbtpjmgvee6h62h4cja5a2m4er7nfu3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021104459::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 474vkitoqahivpvc8m6chbtld6j3pgnn6130hmev8hldd53sc4jsnidbsfptb0c9godsrg4avjv5833j611re0u2oom5hqea79ksj63
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021104500::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 893a11tc3sna7eldb98b5tutcv53cam6qtggu8crai0iqrna0ss97r216sjoj75ko2bo580rgc1657klphgoeo18iff8obsdotis9l3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021104751::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: clt4544vc00e1j2k395be3dks6929oqdqa868171oq0c2tqr4hddkejgut84lnv5uei3u05ldk1escq6i9paaivm4jpdap1jgbtk7j1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021104758::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 9fdpr1j74h3uk8bssnfsqv1p0f5t83hr18acgsqjadlrkjfjbeti6ipathfku4295cgkb1prpfphhqgs7gjdlutb8scpm4j0mf9in00
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021104829::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: i3teogkvkbirfkesdmcoujm49pf9p316lg2aj4gbe7p1h3bv81p6gn1kjfovluuv1egm8ja8ashrlu0djvt5d9etjeuulclta11bbp3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021110439::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: psfc034c321qkds2g6gssjmii1d4t9hm5dr9rssp568b1anmo51djakap351qasvdj8p79pi3g4lsohdtna47jafl2vplabgmi5c263
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021111010::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: rjfd8s0vl5qv0hcnktnn5s302b0fv4hik6vhmm22k2hu8lrtmpvabo0qamk0219l3oekhssktqommtfp5j09h2f66738vv5tq59njs2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021111042::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 25gq1dkgj83o69oq3ke3tshi0nv5449qic3r3qk4pje6osr2i5ueoon2tolp67nfr1kofug3si6064sapr90aoc2fhi1shgg0t5lab1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021111233::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 398098jn14r44vk5b2vr02t66cs10iq5bhfetuca0kbj5c67bf0k7ofn12pmhmo16rrq32frohfvu02ahq7jtaaa2ugiu0151th32o0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021111255::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 0dfu53komh0vmt1ftahimnv9a3s81nfvaq4i688nk63cqc6174g00gomt15j47k5jhlc514qs60a0ft7tb47c2b604q9s41o666bf32
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021114208::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: cj6ae77iu1t5l5ou4r0fi6on1mi5qdhq03p0p912rt74flsa262455s30ooih0tsf1j24e6eq1la9uipg0eek7hfu8d84123437e2h3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021114257::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: t4oo72586fkiqldkfkksgtrgil2jesvi0l8dh2u1ckvqmbtfjcjdvl6st7mmu7jj3lvb15eunsaqoj0tbuhm7hdd9risc97s78ajdi1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021114328::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: bm7vqgkgke25jdgf0kq1dlm1imu5u1aqldotk61vd510vt4ffjcnb52kd82mrq8d4if7ank4irrv25saoe9f97o5cmgqki3ea7bhqm1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021114347::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 8rqhl50brjm23bd45dhulumqvb4cb42hqi9r0kerrocq3dh31i9fbqj8tjo59sm1k7pmdb9eefpclgkpho58g1nhcc74vttckj8bja2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021114415::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: jf0d5v9age0b9b11vbsvg28eec6ali74eenhdrujabvn18pk5lq5es7m4k41snpb95kaln2r5c0o5jltdhoemp958hedftjh9bt6v22
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021114431::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: igad56bp4h75vdskd9pumcm7r6lblqhmi19ofqdggp0n2ofjeihcq8odf47v7qg6vpirb7nbla1jvjs76qfua8gjmdn3dkdknt6rtq1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021114545::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: bsioa77q8ojn261b81oh3inh9pcom0bjsmgmmvpd8ikn7qp6kshr5tkgv534i6m97tumvaq41eb68k9oa01huf5it6j2tl48hq1tk43
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021114556::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: bebnu926fbgjv28rjfthbutemof2jmn8g0h6e3j7lptspf9vjr0ka0bph42vh1rcl7j309tgg9841osujgajk1qja1vnt4i9mi5uhp1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021114622::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 59k54c9ma8qrlpd1fs68d0c91vc7l64nfqqtvr1p8l7ehi5msh1ldu94p2tqd23m4nbgods3ist7j4bkbuenjvnileir3gnp8lufbs0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021114635::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 0bn0nbujomjcj69lh1093uj16dqpvr0r4bq8vdeqcggt5avngcq6quhus7d9q7u876i2ni450il573svvjnjh0q5uenc1kad1cfb6e0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021114648::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: kbv1r8s477f56gkosq85snt3dg6onbrbj5big5lab9kaumams1n5sm7rj3mgsvokh35lm7h7iqaubav4fbhrgu8sc2d08fh29fndgr3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021114717::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: pt7pu22luvg8d55554ustnqct5c10t3k8c5q8s9rb29ba9u4eitj9dsl3t8d2orhvg8qjiqhu3gki1hsmu4ft060dtihb6uv9rnv6d3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021114739::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: vnvhdfr98sh4k6f04n8s8dt6pi2ld15hego9u787bvlsd41hu7f4j9fvbjjb2vuos5egq9tdfrmqh8v7f511duqm0lvs6fjjtmnjju3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021114804::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: ip3c2urcru6r2ps8eakasn5ava8ccrl15fbk6a49aentcc215k6p0og098tq9ev10r0f87a1vm0j0usvt71uhf4cc0mql8llin167j1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021114847::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: lhbkg7r4vo56f9lgd1m4cjv63um1c0b45b1c1icncfaup8gbguf609kb9jhuk8iq4ti2s9qs3goftjbahfv45flnfq511cj8pneaf60
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021114902::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: hoieua6iodml1ham20bdio8dl7l7mdm34kq9fncru5uqmkh2moe9vj0d9puhk51fdmvrhm9ajp19qsi1fld5p0qj3psm2d5hmfhkh82
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021114950::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: ehjha2os2k6i6fi08c2fsep53v0b25gipb7bso003p52fr84pcqu8390q60lucmfcqcvcomovdmnekvqs53rqn7nuq54mmhnlprd6f2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021115106::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 9p9m32e14sji29ri4e5apu9nte35a05obfkvsqo8gr5ruldnd0k4ga2la0ikumrgbp9soq08vi0s00gjsibgbvg20fb81kqsb1raqv2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021120221::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: k72ho3ai1mce67mvter4pt5mfvva4dds1o72aboqco0sl4062o876ae0eop1sp7dmu7ri3nn2npesvevcgn0s7u7bofes8q8p6lbdu2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021120653::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: esah66pf5br2moovs4f8bsofs6rqjj3n6rgu5r3t51o2m9sm7kl1sjvccila6k678bf033js1iu9njmv75ddts6goc2i3bi36ccd123
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021120737::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 7cj5een7sbfhf53s4ni58bn669097s5kskg13vdme1qoe9m7jpr3lvnrgdb1cfvjr31r3snajvc4qsgkgiqlmf7q49dccva6shhgj30
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021120812::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: e3orlii2s24us2rlf87atv7ofssv44as1ae2ffq7kh9ds21fdshfkj4kvlcatnf6rtrptp9bqc6hqvn5s0chjaur6kmq024oiqiufn2
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021120830::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: k4svb5mc5a36di5mequm12nudlf5oerj7bvjlvit8akt1ggc4rt3k1sdd4a3tgv32nc7qiev5p580nlm015tuta82s30dg0eehsbn22
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021120915::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: u59apra1j8kloeab1ce45qvefc1vrc655dvp14309r1fr3d6455c8d8p28pmef2rbthcigmq9gps6d4ao17jeat85n499r6ntrg2tp3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021121252::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: cbvsdvj8rjl5t5ogt9rvh892b987p22irhtstsov8qfm1ue4rvh309ths1h42iero1i558ppt07uo4hd3jkphaabjoa8mlehg184v62
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021121520::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: si61mpfvfr934puiph5t6s2mtvr6ul7qhop84ruvmj0jamdpgblm9egn9jhi770sipf6lv6s65iltcs4q13ub4n0vbmeuun5djhh5l3
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021122747::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: gtscn0dtr55s03d6jch3aqa3bua4u0sji5m70b394qtav94g555utrdto1cnreiqfc0pmul4bb9jek0p0f6fhg028ibueuedmmsb5s0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021122846::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 66r4h227vekgkd13hulvl4fcpo76jcg1juq7d8ck9ptkv4u101p5vdm8tolkpkhptbcr2f3c1ng35sjh55891c51a2hugukpaa97ih0
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021123035::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: tvp1dr6r2uk2odu8m48i1gqjerm39e2qqg3e0944nse35s5mv667c3rhu1p3a733678mf6o7g4t556tac0p9nvo8iuukcnerre070d1
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021123210::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 7bs03gfevgecfpc4cs06uoi5rjfgkuj4hlgs323110fvblgnh7ep2l7i6ph4o47jj1sdqefclrdq0urls02rrq3cknd8vfbs3cgop30
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
+021123234::El controlador beep.wav no existe(1)
+--> C:\xampp\htdocs\tya\_frame\Arranque.php::72
+-->--> #0 C:\xampp\htdocs\tya\index.php(12): Arranque::ejecuta(Object(Peticion), Object(lib_seguridad))
+#1 {main}
+
+URL: http://127.0.0.1:80/tya/beep.wav
+SESSION: 
+-->id: 81dfct0fiol0fgbfcqsrvb0rqjmt40q5lnpjt1ipm9m6njic021uselgseo4a67habk7pt3n27md5cjhf8a4ktkdu95d7s083upr812
+-->data: 
+-->-->__browser = Google Chrome
+-->-->__so = WINNT
+-->-->__ip = 127.0.0.1
+-->-->__token = 6fad7ca4507e303b89fdf8bf0d47fc96
+IP: 127.0.0.1 - PHP 5.4.27 - WINNT(C:\php C:\xampp\apache\bin\httpd.exe)
+--------------------------------------------
